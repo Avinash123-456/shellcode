@@ -1,0 +1,956 @@
+@media (max-width: 727.98px) { 
+  #book-thumbnail{
+    height: 150px;
+    position: relative;
+    left: 100px;
+  }
+  
+  #my-class-container{
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  overflow-x: hidden;
+  height:900px;
+  overflow-y: hidden; 
+}
+
+
+#scroller{ 
+  position: relative;
+  left: 0px;
+}
+  #horizontal-rule{
+    width: 1px;height:  20px;position:  relative; left:   120px;bottom:   40px;
+  }
+
+  #settings-container{
+    position: relative;
+    left: 0px;
+  }
+
+  #home-container{
+     position: relative;
+  left: 00px;
+  width: auto;
+  }
+
+  #message-heading{
+    font-size: 80%
+  }
+
+  #logo-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+  }
+
+  #logos{
+    height: 50%;
+  }
+
+  #progress-bar{
+    height: 7px;
+  }
+  #currents{
+    width: 230px;
+  
+    background-color: red;
+    position: relative;
+    bottom: 110px;
+    left: 210px
+  }
+
+  #project-row{
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    font-size: 80%
+  }
+
+
+#final-time{
+  visibility: hidden;
+}
+
+#player{
+    position: relative;
+display:  flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+  height:   80px;
+}
+
+
+#player-info{
+  width:100%;
+  height:   20px;
+  position: relative;
+}
+
+
+
+#live-chapter-name{
+  font-size:  15px;
+  position: relative;
+  left: 110px;
+  bottom: 8px;
+
+}
+
+#live-tutor{
+  font-size:  60%;
+  position:   relative;
+  left: 330px;
+  bottom:  38px;
+}
+#fa-step-backward{
+  font-size:  20px;
+}
+#fa-play{
+  font-size:  20px;
+}
+
+
+#controls{
+  position:   relative;
+  top: 20px;
+  right:  40px;
+
+  display:  flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+#fa-step-forward{
+  font-size:  20px;
+}
+
+  #bottom-books-row{
+    position: relative;
+    bottom: 240px;
+  }
+  #nexts{
+    width: 230px;
+    font-size: 80%;
+    height:20px;
+     position: relative;
+   bottom: 100px;
+    left: 210px
+  }
+
+#myclassbooks{
+  height: 100px;
+}
+  #current-chapter{
+    font-size: 80%;
+    font-weight: bold;
+  }
+  #current-chapter-name{
+    position: relative;
+    bottom: 97px;
+    left: 115px;
+    font-size: 80%;
+     font-weight: bold;
+  }
+
+  #next-chapter{
+    font-size: 80%;
+     font-weight: bold;
+  }
+
+ #next-chapter-name{
+  position: relative;
+    bottom: 97px;
+    left: 115px;
+    font-size: 80%;
+     font-weight: bold;
+
+  }
+  #horizontal-rule{
+    visibility: hidden;
+  }
+
+  #progressbars{
+    position: relative;
+    bottom:  570px;
+    left: 200px;
+    height: 170px;
+  }
+
+  #lvl1{
+    font-size: 80%
+  }
+  #lvl2{
+    font-size: 80%
+  }
+
+  #chapter-left{
+    font-size: 80%;
+  }
+
+  #subscribe-button{
+    position: relative;
+    left: 50px;
+    font-size: 80%;
+  width:  100px;
+}
+
+#take-demo-class-button{
+  position: relative;
+  left: 50px;
+  font-size: 80%;
+  width:  170px;
+}
+
+#scroller{
+  position: relative;
+}
+
+
+#book-detail-schedules{
+  font-size: 80%;
+  position: relative;
+  left: 20px;
+}
+
+  #book-detail{
+    width: 300px;
+    justify-content: center;
+    position: relative;
+    right: 70px; }
+
+#account-edit-profile-image{
+    height: 30px;
+    width: 30px;
+  }
+.nav-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#schedule-row{
+  position: relative;
+  right: -40px;
+}
+#second-heading-login-page{
+    font-size:80%;
+}
+#nav-icon{
+  position: relative;
+  align-self: center;
+}
+
+
+
+.customized-pill{
+  visibility: hidden;
+}
+
+#full-navb{
+  width:100%;
+
+}
+
+
+#browse{
+  visibility: hidden;
+}
+button{
+  font-size:  80%
+}
+#bottom-nav-item{
+  font-size:  80%
+}
+#bottom-text{
+  font-size:  40px;
+}
+
+#subscribe-button{
+  width:  170px;
+}
+#takeclass-button{
+  width:  170px;
+}
+#books-books-page{
+  width:  400px;
+}
+.msg-para{
+  font-size: 80%
+}
+#instructor-card{
+  max-width: 500px;
+
+}
+
+
+#initial-time{
+  visibility: hidden;
+}
+
+
+#range1{
+  visibility: hidden;
+}
+#volume-icon{
+  visibility: hidden;
+}
+    
+    #book1{
+      height: 90px;
+    }
+
+   
+
+    #myclasses-bottom-text{
+      font-size: 95%;
+    }
+
+  #marker{
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+  }   
+
+  #box-1{
+
+    max-height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline;
+  }
+  #nav-item-1{
+    font-size: 90%;
+    max-width: 45%;
+  margin-left: 5px;
+  margin-top:5px;
+  }
+
+ 
+  #level-ongoing{
+    font-size: 80%;
+  }
+
+#ongoing-book{
+  width:100%;
+  height: auto;
+}
+#ongoing-book-card{
+  width: 200px;
+  height: 280px;
+}
+  
+  #designation{
+    font-size: 80%;
+  }
+
+}
+.cp{
+  
+margin-left: 20px;
+max-height: 220px;
+}
+.col-form-label{
+  font-size: 18px;
+}
+
+
+
+
+body{
+  background-color:#f2eff2;  
+
+}
+
+
+a:hover{
+  color: inherit;
+  text-decoration: none;
+
+}
+
+
+.profile-pic{
+  height: 80%;
+  width: auto;
+}
+
+.full-navb{
+  height: 100%;width: 300px;
+}
+.username{
+  font-size: 35px;
+  color:black;
+}
+.change-password{
+  position: relative;
+  
+}
+#browse{
+  color: gray
+}
+#pills-home-tab{
+  color: #2980B9
+}
+
+.upper{
+
+  position: relative;
+  top: 20px;
+}
+
+.schedule-row{
+  position: relative;left: -20px
+}
+.middle{
+  position: relative;
+  top: 40px;
+}
+
+      .message{
+        
+        
+      }
+
+      .horizontal-rule{
+        width: 1px;height:  20px;position:  relative; left:   160px;bottom:   40px;
+      }
+      
+      #vind{
+        position: relative;
+        top: 35px;
+        margin-left: 60px
+      }
+
+      
+     
+      #cardimg{
+        height: 172px;
+      
+        
+      }
+      
+      #offcanvas{
+        background-color:lightgray
+      }
+      .bottom{
+        position: absolute;
+  bottom: 20px  ;
+  left: 100px    }
+
+  #profileimg{
+    border-radius: 50%;
+    width:80px;
+    height: 80px 
+  }
+  .controls{
+    position: relative; 
+    top: 20px;
+    width: 300px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    #rangeValue {
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 6em;
+  color: #999;
+  font-weight: 400;
+}
+.range {
+  position: relative;
+  bottom: 10px;
+  width: 400px;
+  height: 10px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+  cursor: pointer;
+  border: 4px solid white;
+  box-shadow: -407px 0 0 400px #00fd0a;
+}
+.range1{
+  position: relative;
+  bottom: 10px;
+  width: 100px;
+  height: 5px;
+  -webkit-appearance: none;
+  background: white;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  margin-left: 5px;
+  margin-right: 5px
+}
+.range1::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 5px;
+  height: 35px;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+  border: 4px solid white;
+  box-shadow: -407px 0 0 400px #00fd0a;
+
+}
+.initial-time{
+  position: relative;
+  bottom: 10px
+}
+.final-time{
+  position: relative;
+  bottom: 10px;
+}
+.linklist{
+  position: relative;
+  top: 50px;
+}
+
+#link1{
+  color:#2980B9;
+}
+
+#link2{
+  color: black;
+}
+
+#link3{
+  color: black;
+}
+#link4{
+  color: black;
+}
+
+.box-1{
+  height:500px;
+  width: 300px;
+
+
+  background-color: white
+}
+
+.nav-item-1{
+  width:250px; 
+  margin-top: 10px;
+  background-color: #e3e3e3
+}
+
+.nav-item{
+ 
+  margin-top: 10px;
+  background-color: #e3e3e3
+}
+.project-row{
+  margin-top: 5px;
+}
+
+.box-2{
+  min-width:  460px;
+  max-width:  800px;
+  min-height:   500px;px;
+  background-color: white;
+  padding: 35px;
+
+}
+.menu-2{
+  position: relative;
+  right: 20px;
+}
+
+#inpuruser{
+  width: 700px;
+}
+.box-3{
+    min-height: 550px;
+  min-width:100%;
+  overflow-x: hidden;
+
+}
+.navbar-nav>.active>a { 
+      background-color:#0d6efd; 
+    
+    }
+#vind-logo{
+  height: 50px;
+  width: auto;
+}
+
+.box-2-heading{
+  font-size: 20px
+}
+.box-2-subheading{
+  font-size: 12px;
+}
+
+.menulist{
+  display: flex;flex-direction: column;width:400px;
+}
+
+.account-edit-profile-image{
+  height: 70px;
+  width: 70px;
+}
+.account-edit-username{
+  font-size: 12px;
+}
+.edit-info-form{
+  position: relative;
+ 
+  top: 15px;
+}
+
+.edit-info-subscribe{
+  position: relative;
+  bottom: 5px;
+  font-size: 10px;
+}
+.profile-input{
+  position: relative;
+  top: 10px;
+  right: 56px;
+  font-size: 13px;
+}
+#inputfile-text{
+  cursor: pointer;
+}
+
+
+
+.book-page{
+  position: relative;
+  top: 10px;
+}
+
+.progress-bars-and-all{
+  position: relative;
+  top: 30px;
+  right: 20px;
+}
+.volume-span{
+  position: relative;
+  left:  10px;
+}
+.scroller{
+  max-height:   680px;
+  max-width:  740px;
+  position: relative;
+  left: 270px;
+  overflow-x: hidden; 
+}
+.instructor-card{
+  max-width: 600px;
+  border-radius:20px;
+}
+.card-title-book{
+  font-size: 20px;
+}
+.instructor-profile-pic{
+  height: 40px;
+}
+.instructor-para{
+  font-size: 70%;
+  position: relative;
+  bottom: 10px; 
+}
+.book-para-2{
+  font-size: 80%
+}
+.book-para-3{
+  font-size: 80%
+}
+.video-icon{
+  position: relative;
+  top: 7px;
+}
+.world-icon{
+  position: relative;
+  top: 3px;
+}
+
+.skills{
+  margin-top: 20px;
+}
+.skills-heading{
+  font-size: 30px;
+}
+.books-books-page{
+  width: 600px;
+
+}
+
+#see-more-link{
+color: blue
+
+}
+#see-more-link:hover{
+  color: blue
+}
+
+
+.final-time-duration{
+  visibility: hidden;
+}
+
+.course-content-sessions{
+  font-size: 80%
+}
+
+.login-container{
+  position: relative; 
+  left: 200px;
+}
+
+.home-iframe{
+  min-width:100%;
+  min-height: 800px;
+}
+.book-thumbnail{
+height:   350px;
+position: relative; 
+left:   45px;
+}
+.book-detail{
+  width: 368px;
+align-items: center;
+  height:   auto  ;
+  position: relative;
+  right: 40px; 
+}
+
+.session-includes{
+  font-size:18px;
+  position: relative;
+  left: 27px;
+}
+.bottom-text{
+  font-size:  80px;
+}
+
+.book1{
+  max-height:200px;
+}
+.subscribe-button{
+  position: relative;
+  left: 50px;
+  width:  250px;
+}
+
+.book-detail-schedules{
+  position: relative;
+  left: 52px;
+}
+
+.take-demo-class-button{
+  width: 250px;
+  position: relative;left: 50px;
+}
+.session-points{
+  font-size: 90%
+}
+.ongoing-book{
+  margin-top: 10px;
+  height: 180px;
+}
+.ongoing-book-card{
+  max-width: 200px;
+}
+
+.submit-project-link{
+  position: relative;
+  bottom: 10px;
+}
+
+.marker{
+  position: relative;
+  right:100px;
+  height: 30px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  background-color: black;
+  border-radius: 50%
+}
+.marker-text{
+  position: relative;
+  bottom: 0px
+}
+.myclasses-bottom-text{
+  font-size: 50px;
+}
+
+.settings-container{
+  position: absolute;
+  left: 300px;
+}
+
+.progress-bar{
+  width: 80%;
+  height: 14px;
+  background-color:#f2eff2;border-radius: 20px;margin-top: 20px;  
+}
+.progress{
+  height: 100%;
+  width: 70%;background-color: #58CC02
+}
+.shine{
+  width: 70%;
+  height: 30%;
+  background-color:#72d42a;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  border-radius:20px;
+}
+.black-white{
+
+
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+.nav-bar{
+  max-width:300px;position:  absolute; left:   0px;
+  background-color: #e3e3e3;
+  min-height: 100%;
+}
+
+.currents{
+  height: 40px;
+}
+.nexts{
+  height: 40px;
+}
+
+.current-chapter-name{
+  position: relative;
+  bottom: 110px;
+  left: 200px;
+}
+
+.next-chapter-name{
+   position: relative;
+  bottom: 110px;
+  left: 200px;
+}
+
+
+
+.myclassbooks{
+  height: 200px
+}
+
+.my-class-container{
+  position: absolute;
+  left: 340px;
+  width: 1200px;
+}
+
+.logo-row{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.home-container{
+  position: relative;
+ 
+  left: 200px;
+  width: 1200px;
+}
+
+.notification-card{
+  display: flex;
+  flex-direction: row;justify-content:flex-start;
+}
+
+.notification-text{
+  position: relative;
+  left:5px;
+  top: 12px;
+  font-size: 12px;
+}
+.notification-image{
+  height: 40px;
+  position: relative; 
+  left: 0px;
+}
+
+.subtext{
+  position: relative;
+  bottom: 22px;
+  font-size: 80%
+}
+
+
+.lipp{
+  width: 200px; 
+}
+
+.notifier-dot{
+  position: relative;
+  bottom: 17px;
+ right: -10px;
+}
+
+.player{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  top: 20px;
+  height: 100px;
+}
+
+.player-image{
+  height: 80px;
+  border-radius: 50%;
+
+  width: auto
+}
+
+
+.controls{
+  position: relative;
+  top: -10px;
+  right:  10px;
+}
+
+.progress-bars-and-all{
+  position:   relative;
+  top: 15px;
+}
+
+.player-button{
+  font-size:  42px;
+}
+.live-tutor{
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+}
+.outercard{
+    max-height:200px;
+    width:auto;
+}
+

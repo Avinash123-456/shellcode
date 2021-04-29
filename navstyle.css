@@ -1,0 +1,15 @@
+<div class="project-card bg-white rounded-xl shadow-xl" style="width: 14rem;border: none">
+                <div class="project-card">
+                  <h4 class="font-bold"><center>Project Status</center></h4>
+                  <p class=""><center><i class="fas fa-times-circle fa-2x" style="color: red"></i></center></p>
+                  <center><p class="text-red-500 font-semibold">Not Submitted</p></center>
+                  <center><div class="submit-project-link" id="submit-project-link">
+
+                     <div class="submit-project-link" uk-form-custom>
+            <input type="file"> 
+            <span class="uk-link" id="project-input">Click here</span><span class="text-black"> to submit</span>
+        </div>
+                </div>
+                    </center>
+                </div>
+              </div>

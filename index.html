@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Signup/Login</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      overflow-x: hidden;
+      background-color: #222222;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    @media only screen and (max-width: 1480px) and (min-width: 740px) {
+
+
+      #player {
+        position: relative;
+        bottom: 0px;
+      }
+    }
+
+
+    @media (max-width: 800.98px) {
+      #username {
+        visibility: hidden;
+      }
+
+      #profile-pic {
+        visibility: hidden;
+      }
+
+
+      #player-image {
+        border-radius: 0%;
+        position: relative;
+        top: 30px;
+      }
+
+      #controls {
+        position: relative;
+        bottom: 40%;
+      }
+
+
+    }
+
+
+
+    @media (max-width: 1400.98px) {
+      #login-container {
+        margin-left: 80px;
+      }
+
+      #videos {
+
+        margin-left: 50px;
+      }
+    }
+
+    @media (max-width: 727.98px) {
+      #login-link {
+        z-index: 3000;
+      }
+
+      #videos {
+
+        margin-left: 00px;
+      }
+
+      #player {
+        height: 120px;
+        position: relative;
+        width: 98%;
+        left: 0px;
+        top: 20px;
+        margin-top: 10px;
+        margin-bottom: 90px;
+        display: flex;
+        background-color: #29313A;
+        justify-content: flex-start;
+      }
+
+      #player-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+        top: 00px;
+        height: 100%;
+        width: 100%;
+
+      }
+
+      #player-details {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        width: 100%;
+        height: 50px;
+
+
+
+      }
+
+      #player-names {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        width: 75%;
+        align-self: center;
+        right: 10px;
+        margin-bottom: 10px;
+      }
+
+      #duration-bars {
+        position: relative;
+        width: 100%;
+        top: 5px;
+        left: 40px;
+      }
+
+      #progress-bars-and-all {
+
+        width: 100%;
+        position: relative;
+        top: -40px;
+        left: 0px;
+        height: 40px;
+
+      }
+
+      #range {
+        width: 180%;
+        height: 8px;
+        position: relative;
+        left: 14%;
+        margin-bottom: 5px;
+
+      }
+
+      #player-image {
+        position: relative;
+        height: 90px;
+        width: auto;
+        top: 0px;
+
+      }
+
+      #play-icon {
+        font-size: 20px;
+      }
+
+      #previous-icon {
+        font-size: 20px;
+      }
+
+      #forward-icon {
+        font-size: 20px;
+      }
+
+      #controls {
+        position: relative;
+        text-align: center;
+        top: 25px;
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+      }
+
+
+      #final-time-duration {
+        font-size: 70%;
+        position: relative;
+
+        top: 30%;
+        left: 00px;
+
+      }
+
+      #initial-timeing {
+        position: relative;
+        visibility: visibile;
+        top: 10px;
+        left: 65px;
+        margin-top: 1px;
+        font-size: 70%;
+      }
+
+      #live-tutor {
+        position: relative;
+        top: 6px;
+        left: 10px;
+        font-size: 10px;
+      }
+
+
+      #volume-icon {
+        visibility: hidden;
+      }
+
+      #range1 {
+        visibility: hidden;
+      }
+
+
+      #login-container {
+        position: relative;
+        left: 0px;
+        margin-left: 0px;
+
+
+
+      }
+
+      #card-1-content {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        font-size: 100%;
+      }
+
+      #card-2-content {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        font-size: 100%;
+      }
+
+
+      #final-time {
+        visibility: hidden;
+      }
+
+      #second-heading {
+        font-size: 25px;
+      }
+
+      #logos {
+        height: 100%;
+        position: relative;
+        left: 0px;
+
+      }
+
+      #logo-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+        height: 50px;
+
+
+      }
+
+      #videos {
+        justify-content: center;
+        position: relative;
+        left: 10px;
+        width: 100%;
+        font-size: 100%;
+
+      }
+
+      #video-row {
+        position: relative;
+        right: 0px;
+      }
+
+      #menulist {
+        width: 97%;
+        position: fixed;
+        left: 5px;
+        bottom: 20px;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        line-height: 20px;
+        background-color: white;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+        -moz-box-shadow: 3px 3px 5px 6px #ccc;
+        /* Firefox 3.5 - 3.6 */
+        box-shadow: 3px 3px 5px 6px #ccc;
+        border-radius: 10px;
+        position: fixed;
+
+        bottom: 0px;
+        z-index: 10000;
+      }
+
+      #book-row {
+        position: relative;
+        width: 98%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        overflow-x: auto;
+        left: 0px;
+        z-index: 1000;
+
+      }
+
+
+
+      a {
+        font-size: 80%;
+      }
+
+      #book1 {
+        margin-left: 10px;
+        margin-right: 10px;
+        box-shadow:
+          0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+          0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+          0 12.5px 10px rgba(0, 0, 0, 0.06),
+          0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+          0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+          0 100px 80px rgba(0, 0, 0, 0.12);
+      }
+
+      #nav-icon {
+        margin-right: 0px;
+      }
+
+      #login-signup-row {
+        position: relative;
+        bottom: 0px;
+      }
+    }
+
+
+    .login-container {
+      position: relative;
+      left: 250px;
+    }
+
+    .outercard1 {
+      margin-top: 5px;
+      height: 200px;
+      width: 500px;
+      margin-left: -5px;
+      box-shadow: rgb(15 15 15) 5px 5px 20px -5px;
+    }
+
+    .outercard2 {
+      margin-top: 5px;
+      height: 200px;
+      width: 400px;
+      margin-right: 350px;
+      box-shadow: rgb(15 15 15) 5px 5px 20px -5px;
+    }
+
+    .outercard3 {
+      margin-top: -203px;
+      height: 200px;
+      width: 200px;
+      box-shadow: rgb(15 15 15) 5px 5px 20px -5px;
+      margin-left: 820px;
+    }
+
+
+    .card-1-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: relative;
+      top: 50%;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-size: 140%;
+    }
+
+    .card-2-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      position: relative;
+      top: 50%;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-size: 140%;
+
+    }
+
+    .browse {
+      font-size: 20px;
+      margin-left: 15px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .player {
+      position: relative;
+      top: 60px;
+      width: 99%;
+      left: 0px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: -60px;
+    }
+
+    .final-time-duration {
+      visibility: visible;
+
+    }
+
+    .player-button {
+      font-size: 150%;
+    }
+
+    .player-details {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+    }
+
+    .controls {
+      font-size: 90%;
+      max-width: 300px;
+      position: relative;
+      top: 1%;
+      left: 1%;
+    }
+
+    .initial-timeing {
+      position: relative;
+      top: -8px;
+    }
+
+    .progress-bars-and-all {
+
+      height: 50%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    .range {
+      position: relative;
+      top: -3px;
+      width: 60%;
+      height: 30%;
+      margin-left: 10px;
+      margin-right: 10px;
+      background: #717474;
+    }
+
+    .player-names {
+      display: flex;
+      flex-direction: column;
+      line-height: 15px;
+      margin-left: 10px;
+    }
+
+    .final-time-duration {
+      font-size: 14px;
+      position: relative;
+      bottom: 4px;
+    }
+
+    .videos {
+
+      width: 100%;
+
+      justify-content: left;
+    }
+
+    .video-row {
+
+      width: 100%;
+      position: relative;
+      right: 80px;
+    }
+
+    .book-row {
+      position: relative;
+      width: 93%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      overflow-x: auto;
+      right: 160px;
+      top: -40px;
+      padding: 10px;
+    }
+
+    .nav-icon {
+      margin-right: 20px;
+    }
+
+    .logo-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      position: relative;
+      top: 0px;
+      height: 80px;
+      right: 0px;
+    }
+
+    .logos {
+      position: relative;
+      right: 100px;
+    }
+
+    .duration-bars {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .volumes {
+      width: 30%;
+      position: relative;
+      bottom: 12px;
+      right: 10px;
+    }
+
+    .middle {
+      position: relative;
+      top: 30px;
+    }
+
+    .list {
+      position: relative;
+      bottom: 40px;
+    }
+
+    .menulist {
+
+      line-height: 30px;
+
+    }
+
+    .login-signup-row {
+      position: relative;
+      bottom: 60px;
+      right: 90px;
+    }
+
+
+
+    #pills-forum-tab {
+      color: black;
+    }
+
+    #full-navb {
+      margin-top: 30px;
+    }
+
+    #upper-nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      left: -40px;
+    }
+
+    #menulist {
+      margin-top: 30px;
+    }
+
+    @media (max-width: 727.98px) {
+      .customized-pill {
+        /* visibility: hidden; */
+        display: none;
+      }
+    }
+
+    .main {
+      background-color: #F2EFF2;
+      height: 85vh;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 0px 13px 26px #000000;
+    }
+
+    .nav-bar {
+      max-width: 235px;
+      position: absolute;
+      left: 0px;
+      background-color: #E3E3E3;
+      min-height: 85vh;
+      border-bottom-left-radius: 50px;
+    }
+
+    .second-heading {
+      margin-top: -25px;
+      margin-left: -80px;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .aboutUs-heading {
+      position: relative;
+      top: 210px;
+      font-size: 17px;
+      font-weight: 700;
+      text-align: center;
+      color: #606060;
+      font: normal normal medium 20px/30px Poppins;
+    }
+
+    .book1 {
+      width: 140px;
+      box-shadow: rgb(7 7 7) 5px 20px 15px -15px;
+    }
+
+    #username {
+      font-weight: bold;
+      font-size: 15px;
+      text-align: left;
+      color: black;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    #player-image {
+      width: 50px;
+      height: 50px;
+      border: 2px solid rgb(241, 0, 0);
+    }
+
+    .player-info {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .going-live {
+      color: white;
+      font-weight: bold;
+      position: relative;
+      bottom: 8px;
+      left: 14px;
+    }
+
+    .going-live-time {
+      font-weight: 400;
+      font-size: 12px;
+      columns: rgb(80, 76, 76);
+    }
+
+    #live-tutor {
+      font-size: 12px;
+    }
+
+    #profile-pic {
+      width: 55px;
+      margin-left: 20px;
+    }
+
+    .unsubscribed {
+      font-size: 8px;
+      width: 75px;
+      text-align: center;
+      border-radius: 3px;
+      border: 2px solid grey;
+    }
+
+    .body-data {
+      margin-left: 0px;
+    }
+
+    .user {
+      margin-left: 5px;
+    }
+
+    .user-icon {
+      margin-left: 50px;
+      border: 1px solid white;
+      border-radius: 50%;
+      background-color: white;
+      width: 45px;
+      height: 45px;
+      text-align: center;
+      padding: 1px;
+    }
+
+    .player-dot {
+      height: 7px;
+      width: 7px;
+      background-color: rgb(250, 0, 0);
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      right: 5px;
+      bottom: 1px;
+    }
+
+    .card3-title {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="navs" id="navs">
+      <div class="container-md p-2 nav-bar" id="nav-bar">
+        <div class="row">
+          <div class="col-auto">
+            <div class="full-navb p-2" id="full-navb">
+              <div class="row upper-nav " id="upper-nav" style="max-width: 300px;">
+                <div class="col-4">
+                  <i class="far fa-user user-icon" style="font-size: 35px;"></i>
+                </div>
+                <div class="col-6 user">
+                  <h3 class="username" id="username">No User</h3>
+                  <h5 class="unsubscribed">UNSUBSCRIBED</h5>
+                </div>
+                <div class="col-2">
+                </div>
+              </div>
+              <div class="row middle">
+                <div class="col">
+                  <h3 class="browse" id="browse">BROWSE</h3>
+                </div>
+              </div>
+
+              <div class="list">
+                <div class='row linklist' id="linklist">
+
+                  <ol class="nav menulist" id="menulist">
+
+                    <li>
+                      <div class="row item-row" id="item-row ">
+                        <div class="col-auto customized-pill" id="link-home-pill">
+                          <div
+                            style="height: 18px;width:4px;background-color: #2980B9;position: relative;left: 13px;top:13px">
+                          </div>
+                        </div>
+                        <a class="col-auto nav-link nav-button" href="#home" nav="link-home-pill" id="pills-home-tab"
+                          data-bs-target="#pills-home" type="link" role="tab" aria-controls="pills-home"
+                          aria-selected="true" style="font-weight:bold;" onclick="link_click(this.id);">
+                          <i class="fas fa-home nav-icon" id="nav-icon"></i>
+                          Home
+                        </a>
+                      </div>
+                    </li>
+
+
+                    <li>
+                      <div class="row  item-row" id="item-row">
+                        <div class="col-auto customized-pill" id="link-forum-pill">
+                        </div>
+                        <a class="col-auto nav-link text-black nav-button" nav="link-forum-pill" href="#Forum"
+                          id="pills-forum-tab" data-bs-target="#pills-forum" type="link" role="tab"
+                          aria-controls="pills-forum" aria-selected="false" style="color:#707070;font-weight:bold;"
+                          onclick="link_click(this.id);">
+                          <i class="fas fa-users  nav-icon" id="nav-icon"></i>
+                          <span id="discussion-forum-change">Discussion Forum</span>
+                        </a>
+                      </div>
+                    </li>
+
+
+                    <li>
+                      <div class="row gy-2  item-row" id="item-row">
+                        <div class="col-auto customized-pill" id="link-classes-pill"></div>
+                        <a class="col-auto nav-link nav-button" nav="link-classes-pill" href="myclasses.php"
+                          id="pills-classes-tab" data-bs-target="#pills-classes" type="link" role="tab"
+                          aria-controls="pills-classes" aria-selected="false" onclick="link_click(this.id);"
+                          style="color:#707070;font-weight:bold;"><i class="fas fa-laptop  nav-icon"
+                            id="nav-icon"></i>My Classes</a>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <h1 class="aboutUs-heading">About Us</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-data">
+      <div class="logo-row" id="logo-row">
+        <img src="images/logo.png" class="logos" id="logos">
+      </div>
+
+      <div class="container-md rounded-xl login-container" id="login-container">
+        <div class="row p-2 login-signup-row" id="login-signup-row">
+          <div class="col-auto space-x-2  loggedin  font-semibold">
+            <a type="button" href="Signup.php" id="signup-link">Login</a>
+            <span style="margin-left: 5px;">or</span>
+            <a type="button" href="Signup.php" id="signup-link" class="btn btn-primary border" style="width: 100px;border-radius:6px">Signup</a>
+
+          </div>
+
+        </div>
+
+        <div class="container-fluid book-row" id="book-row">
+          <img src="images/book1.png" class="book1" id="book1">
+          <img src="images/book6.png" class="book1" id="book1">
+          <img src="images/book2.png" class="book1" id="book1">
+          <img src="images/book3.png" class="book1" id="book1">
+          <img src="images/book4.png" class="book1" id="book1">
+          <img src="images/book5.png" class="book1" id="book1">
+        </div>
+
+        <div class="second-heading">
+          <h1 class="text-3xl mt-1 mb-3" id="second-heading">Hey there, let's start<strong> learning new skills</strong>
+          </h1>
+        </div>
+        <div class="videos" id="videos">
+          <div class="row video-row justify-content-evenly" id="video-row">
+            <div class="col-auto">
+              <div class="card rounded-xl outercard1" id="outercard">
+                <div class="card-body">
+                  <h5 class="card-title"><strong>Your <span class="text-blue-500">Upcoming </span>class</strong></h5>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="text-gray-300 align-middle uk-align-center card-1-content" id="card-1-content">You have
+                        to
+                        enroll in a class,<br>to see your upcoming class</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-auto">
+              <div class="card rounded-xl outercard2" id="outercard">
+                <div class="card-body">
+                  <h5 class="card-title font-semibold"> <span class="text-blue-500"><b>Revise</b></span> Your Previous
+                    Lession </h5>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="text-gray-300 align-middle uk-align-center card-2-content" id="card-2-content">You have
+                        to
+                        enroll in a class,<br>to see your upcoming class</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-auto">
+              <div class="card rounded-xl outercard3" id="outercard">
+                <div class="card-body">
+                  <h5 class="card-title font-semibold card3-title"><span class="text-blue-500"><b
+                        style="margin-right:10px;color:#3776E4">Project</b></span>status.</h5>
+                  <div class="row">
+                    <div class="col">
+                      <h4 class="text-gray-300 align-middle uk-align-center card-2-content" id="card-2-content">You have
+                        to enroll in a class</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid  p-2 player" id="player">
+    <div class="player-info" id="player-info">
+      <div class="player-details" id="player-details">
+        <img src="images/book4.png" class="player-image" id="player-image">
+        <div class="col-auto player-names" id="player-names">
+          <p class=" card-title text-white" id="live-chapter"><strong>Splashed(art with me)</strong></p>
+          <p class="card-subtitle text-gray-500" id="live-tutor">With Kashish Yadav</p>
+        </div>
+      </div>
+      <div class="controls" id="controls">
+        <button class="" id="previous"><i class="fas fa-step-backward player-button text-muted"
+            id="previous-icon"></i></button>
+        <button class="" id="play"><i class="fas fa-play player-button" style="color: white"
+            id="play-icon"></i></button>
+        <button class="" id="next"><i class="fas fa-step-forward player-button text-muted"
+            id="forward-icon"></i></button>
+      </div>
+
+      <div class=" progress-bars-and-all" id="progress-bars-and-all">
+        <div class="duration-bars" id="duration-bars">
+          <span class="text-white initial-timeing" id="initial-timeing">0:00</span>
+          <Input class="range" id="range" type="range" name="" value="0" min="0" max="1000"
+            onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" />
+          <p class="going-live">
+            <span class="player-dot"></span>Going Live<span class="going-live-time" style="margin-left: 10px;">in 10.45 mins</span>
+          </p>
+        </div>
+        <span class="volumes" id="volumes" style="margin-left: 15px;">
+          <i class="fas fa-volume-off fa-2x" id="volume-icon" style="color:white"></i>
+          <Input class="range1" id="range1" type="range" name="" value="0" min="0" max="1000"
+            onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)" />
+        </span>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="https://kit.fontawesome.com/04851b3d87.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="js/uikit.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="js/uikit-icons.min.js"></script>
+  <script type="text/javascript">
+
+
+    $("#close").click(function () {
+
+
+      $(".msg-box").html('');
+      $("#player").style('margin-top', '100px;');
+    });
+
+    $("#play").click(function () {
+      $(this).html('<i class="fas fa-pause player-button" style="color: white"></i>')
+    });
+
+
+
+    function link_click(had) {
+      var nav = $('#' + had).attr('nav');
+
+      if (nav == 'link-home-pill') {
+        $('#' + nav).html('<div style="height: 19px;width:5px;border-radius: 20px;background-color: #2980B9;position: relative;left: 10px;top:12px"></div>');
+        $("#" + had).css('color', '#2980B9');
+        $('#pills-forum-tab').css('color', '#A09B98');
+        $('#pills-classes-tab').css('color', '#A09B98');
+        $('#pills-settings-tab').css('color', '#A09B98');
+        $('#link-classes-pill').html('');
+        $('#link-forum-pill').html('');
+        $('#link-settings-pill').html('');
+      }
+      if (nav == 'link-forum-pill') {
+        $("#" + had).css('color', '#2980B9');
+        $('#pills-home-tab').css('color', '#A09B98');
+        $('#pills-classes-tab').css('color', '#A09B98');
+        $('#pills-settings-tab').css('color', '#A09B98');
+        $('#' + nav).html('<div style="height: 19px;width:5px;border-radius: 20px;background-color: #2980B9;position: relative;left: 10px;top:12px"></div>');
+        $('#link-home-pill').html('');
+        $('#link-classes-pill').html('');
+        $('#link-settings-pill').html('');
+      }
+      if (nav == 'link-classes-pill') {
+        $("#" + had).css('color', '#2980B9');
+        $('#pills-home-tab').css('color', '#A09B98');
+        $('#pills-forum-tab').css('color', '#A09B98');
+        $('#pills-settings-tab').css('color', '#A09B98');
+        $('#' + nav).html('<div style="height: 19px;width:5px;border-radius: 20px;background-color: #2980B9;position: relative;left: 10px;top:12px"></div>');
+        $('#link-home-pill').html('');
+        $('#link-forum-pill').html('');
+        $('#link-settings-pill').html('');
+      }
+      if (nav == 'link-settings-pill') {
+        $("#" + had).css('color', '#2980B9');
+        $('#pills-home-tab').css('color', '#A09B98');
+        $('#pills-forum-tab').css('color', '#A09B98');
+        $('#pills-classes-tab').css('color', '#A09B98');
+        $('#' + nav).html('<div style="height: 19px;width:5px;border-radius: 20px;background-color: #2980B9;position: relative;left: 10px;top:12px"></div>');
+        $('#link-home-pill').html('');
+        $('#link-forum-pill').html('');
+        $('#link-classes-pill').html('');
+      }
+
+
+    }
+
+    $(function () {
+      if ($(window).width() < 767) {
+        $("#discussion-forum-change").html('Forum');
+      }
+    });
+
+    window.addEventListener('resize', function (event) {
+      if ($(window).width() < 860) {
+        $("#discussion-forum-change").html('Forum');
+      }
+      else {
+        $("#discussion-forum-change").html('Dicussion Forum');
+      }
+    });
+  </script>
+</body>
+
+</html>
